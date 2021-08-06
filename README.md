@@ -14,10 +14,10 @@ Android实现App版本检测、下载与安装新版本apk，主要包括：
 
 演示效果：
 
-![image](https://github.com/ahuyangdong/VersionDownload/raw/master/images/demo.gif)
+![image](https://github.com/ahuyangdong/VersionDownload/blob/main/images/demo.gif)
 
 安装：
-![image](https://github.com/ahuyangdong/VersionDownload/raw/master/images/install.png)
+![image](https://github.com/ahuyangdong/VersionDownload/blob/main/images/install.png)
 
 ## 讲解参见
 https://blog.csdn.net/ahuyangdong/article/details/119456466
