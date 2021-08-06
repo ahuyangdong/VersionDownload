@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center_vertical"
+        android:text="@string/layout_downloading"
+        android:textColor="@color/gray_text"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/pro_download"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginRight="30dip"
+        android:progress="0"
+        android:progressTint="@color/purple_500" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginRight="30dip">
+
+        <TextView
+            android:id="@+id/txt_percent"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0%"
+            android:textColor="@color/gray_text"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txt_kb_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0Kb"
+            android:textColor="@color/gray_text"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="@color/gray_text"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txt_kb_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0Kb"
+            android:textColor="@color/gray_text"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/layout_cancel"
+            android:textColor="@color/gray_text_light"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>

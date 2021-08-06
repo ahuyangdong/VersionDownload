@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var apk_name = "abc-20210806.apk";
+        window.onload = function () {
+            var url = location.href;
+            url = url.replace("download.html", apk_name);
+            window.location.href = url;
+        }
+    </script>
+</body>
